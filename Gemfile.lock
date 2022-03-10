@@ -1,0 +1,36 @@
+GIT
+  remote: https://github.com/awslabs/amazon-kinesis-client-ruby
+  revision: 371727482b4569663bb178f5a96ccf3c7d63dd2b
+  specs:
+    aws-kclrb (2.0.0)
+      multi_json (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-eventstream (1.2.0)
+    aws-partitions (1.564.0)
+    aws-sdk-core (3.129.0)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.525.0)
+      aws-sigv4 (~> 1.1)
+      jmespath (~> 1.0)
+    aws-sdk-kinesis (1.41.0)
+      aws-sdk-core (~> 3, >= 3.127.0)
+      aws-sigv4 (~> 1.1)
+    aws-sigv4 (1.4.0)
+      aws-eventstream (~> 1, >= 1.0.2)
+    jmespath (1.6.1)
+    multi_json (1.15.0)
+    rake (13.0.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aws-kclrb!
+  aws-sdk-kinesis
+  rake
+
+BUNDLED WITH
+   1.17.3
